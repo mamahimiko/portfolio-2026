@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Outfit:wght@700&display=swap");
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+.outfit {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.dm-sans {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@theme {
+  --color-bg-gray: #f3f6fa;
+  --color-main-pink: #ff8a65;
+  --color-main-blue: #315b8c;
+  --color-foreground: #413333;
+  --color-nuted-foreground: #5d6270;
+  --color-text-main: #413333;
+  --color-text-muted: #5d6270;
+  --color-accent-gray: #d5dfea;
+  --color-muted-gray: #dde5ef;
+  --color-navy-foreground: #f3f6fa;
+  --color-paper-white: #eaf0f8;
+  --color-white: #ffffff;
+
+  --font-title: "outfit", sans-serif;
+  --font-text: "dm-sans", sans-serif;
+}
+
+.section {
+  @apply py-20;
+}
+
+.section-container {
+  @apply w-[90%] max-w-300 mx-auto;
+}
+
+.title {
+  @apply text-4xl font-bold tracking-tight sm:text-5xl pb-5 md:pb-10 font-title;
+}
+
+html {
+  scroll-behavior: smooth;
+}
