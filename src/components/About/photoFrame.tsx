@@ -14,7 +14,7 @@ const PhotoFrame = () => {
       <img
         src={tape}
         alt="tape"
-        className="absolute w-30 -top-13 left-30 rotate-100 z-60"
+        className="absolute w-30 -top-13 left-16 sm:left-30 rotate-100 z-60"
       ></img>
       <div className="relative border-2 border-black w-60 h-80 sm:w-90 sm:h-110 p-4 bg-white z-50">
         <div className="w-50 h-60 sm:w-80 sm:h-90  overflow-hidden">

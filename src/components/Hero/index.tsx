@@ -18,8 +18,8 @@ const Hero = () => {
         >
           I'm Maho
         </motion.a>
-        , <MotionLine>a frontend engineer</MotionLine> with a{" "}
-        <MotionLine>full-stack perspective</MotionLine> — and a background in{" "}
+        , <MotionLine>a frontend engineer</MotionLine> with a
+        <MotionLine>full-stack perspective</MotionLine> — and a background in
         <MotionLine>EC sales</MotionLine>. <br />I make ideas
         <motion.a
           whileHover={{ scale: 1.1, rotate: -5 }}
@@ -28,7 +28,7 @@ const Hero = () => {
         >
           work on the web
         </motion.a>
-        .
+        <span className="text-main-blue text-xl md:text-3xl"> ✦ </span>
       </div>
     </div>
   );

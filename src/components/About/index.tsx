@@ -9,9 +9,9 @@ const About = () => {
   return (
     <div
       id="about"
-      className="mt-10 flex flex-col md:flex-row justify-center gap-2 lg:gap-15 text-text-main section section-container"
+      className="mt-10 flex flex-col lg:flex-row justify-center gap-2 lg:gap-15 text-text-main section section-container"
     >
-      <div className="md:hidden">
+      <div className="lg:hidden">
         <SubtitleChip subtitle="A little about me" />
         <h2 className="title">
           About <MotionTitle>Me</MotionTitle>
@@ -24,17 +24,18 @@ const About = () => {
         </div>
       </div>
       <div className="max-w-150">
-        <div className="hidden md:block">
-          <SubtitleChip subtitle="A little about me" />
+        <div className="hidden lg:block">
+          <SubtitleChip subtitle="A bit of background" />
           <h2 className="title py-2">
             About <MotionTitle>Me</MotionTitle>
           </h2>
         </div>
         <article className="py-4">
           <h4 className="font-title text-lg text-main-blue">
-            Hi, I'm Maho Kurauchi
+            <span className="text-main-pink text-lg">✦</span> Hi, I'm Maho
+            Kurauchi
           </h4>
-          <p className="">
+          <p className="font-text">
             I spent about 10 years in Japan working in sales and business
             development at a fashion e-commerce company and a news agency.
             Throughout my career, one question guided my work: how can I make
@@ -42,8 +43,10 @@ const About = () => {
           </p>
         </article>
         <article>
-          <h4 className="font-title text-lg text-main-blue">Currently</h4>
-          <p className="">
+          <h4 className="font-title text-lg text-main-blue">
+            <span className="text-main-pink text-lg">✦</span> Currently
+          </h4>
+          <p className="font-text">
             I'm now based in Stockholm, studying frontend development at
             Futuregames since 2025, alongside freelance Shopify work for a
             Japanese company. When building apps, I always ask myself: "How can

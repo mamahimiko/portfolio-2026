@@ -134,8 +134,8 @@ export const contactList = [
 ];
 
 export const textAnimation = [
-  "frontend",
-  "typeScript",
+  "Frontend",
+  "TypeScript",
   "NextJS",
   "Design",
   "Traveling",

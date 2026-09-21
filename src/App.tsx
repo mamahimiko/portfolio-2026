@@ -9,7 +9,7 @@ import Works from "./components/Works";
 
 function App() {
   return (
-    <div className="bg-bg-gray font-text">
+    <div className="bg-bg-gray ">
       <main>
         <Hero />
         <MarqueeText />

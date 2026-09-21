@@ -32,7 +32,7 @@ const ProjectCard = ({
           <p className="text-text-muted uppercase font-bold text-sm">{date}</p>
           <h3 className="text-xl font-bold font-title">{name}</h3>
         </div>
-        <div>{description}</div>
+        <div className="font-text">{description}</div>
         <div className="flex gap-3 py-5">
           <div className="group relative">
             <div className="absolute top-1 left-1 w-full h-full rounded-full bg-main-blue group-hover:bg-main-pink transition-colors duration-300 " />
