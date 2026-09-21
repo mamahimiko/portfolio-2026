@@ -38,8 +38,8 @@ const About = () => {
           <p className="font-text">
             I spent about 10 years in Japan working in sales and business
             development at a fashion e-commerce company and a news agency.
-            Throughout my career, one question guided my work: how can I make
-            customers truly satisfied?
+            Throughout my career, I've been guided by one question: How can I
+            create experiences that truly satisfy customers?
           </p>
         </article>
         <article>
@@ -48,11 +48,12 @@ const About = () => {
           </h4>
           <p className="font-text">
             I'm now based in Stockholm, studying frontend development at
-            Futuregames since 2025, alongside freelance Shopify work for a
-            Japanese company. When building apps, I always ask myself: "How can
-            I present this so users find it fun?" I'm especially drawn to
-            interactive experiences, and I love trying out new technologies. In
-            team projects, I take initiative and focus on what needs to be done.
+            Futuregames since 2025, while also working as a freelance Shopify
+            developer for a Japanese company. When building digital experiences,
+            I always ask myself: "How can I present this so users find it fun?"
+            I'm especially drawn to interactive experiences and enjoy exploring
+            new technologies. In team projects, I take initiative, communicate
+            with others, and focus on what needs to be done.
           </p>
         </article>
         <div className="py-10">
