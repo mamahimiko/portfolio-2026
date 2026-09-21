@@ -53,7 +53,9 @@ const About = () => {
             I always ask myself: "How can I present this so users find it fun?"
             I'm especially drawn to interactive experiences and enjoy exploring
             new technologies. In team projects, I take initiative, communicate
-            with others, and focus on what needs to be done.
+            with others, and focus on what needs to be done. I enjoy turning
+            ideas into responsive, interactive web experiences using React,
+            Next.js, and TypeScript.
           </p>
         </article>
         <div className="py-10">
