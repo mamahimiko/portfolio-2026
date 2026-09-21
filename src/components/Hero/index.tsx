@@ -3,7 +3,12 @@ import MotionLine from "../MotionLine";
 
 const Hero = () => {
   return (
-    <div className="h-screen flex items-center md:p-20 ">
+    <div className="h-[85vh] flex flex-col justify-center md:p-20 ">
+      <div className="">
+        <p className="text-main-blue text-sm font-bold tracking-widest uppercase font-title underline decoration-accent-gray decoration-3">
+          <span className="text-main-pink text-lg">✦</span>Portfolio - 2026
+        </p>
+      </div>
       <div className="text-text-main text-4xl md:text-6xl lg:text-8xl font-bold p-2 tracking-tighter leading-[1.1] max-w-300 font-title">
         Hi, Hej, こんにちは! <br />
         <motion.a

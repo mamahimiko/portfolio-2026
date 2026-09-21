@@ -13,7 +13,7 @@ const ContactCard = ({ id, title, contact, display }: contactListType) => {
       <div
         className={`border-2 w-70 h-40 flex flex-col items-center justify-center gap-5 bg-bg-beige z-50 ${id % 2 == 0 ? "rotate-2" : "-rotate-2"}`}
       >
-        <h3 className="font-title">{title}</h3>
+        <h3 className="font-title text-navy-foreground">{title}</h3>
         <a
           href={contact}
           target="_blank"

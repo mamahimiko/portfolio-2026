@@ -2,15 +2,15 @@ export const data = [
   {
     id: 1,
     name: "HSS Sea Scout Website",
-    date: "",
+    date: "Jul - Aug 2026",
     description:
-      "A real-time world clock built with React, Vite, Tailwind CSS, and Luxon. This project turns time zones into a single interactive experience — instead of just reading time, you can move through it. Drag the slider to control time, and watch multiple cities update in sync.",
+      "A client project developed by a 7-person agile team: 5 frontend developers, 1 PM, and 1 designer. I contributed to reusable components, with a primary focus on navigation and interactive map features using Next.js, TypeScript, and React Leaflet.",
     skills: [
       "Next.js",
       "TypeScript",
-      "Tailwind CSS",
-      "React Leafret",
+      "React Leaflet",
       "Sanity.io",
+      "React Hook Form",
       "Resend",
     ],
     strongPoint: "",
@@ -21,10 +21,10 @@ export const data = [
   {
     id: 2,
     name: "World Clock",
-    date: "",
+    date: "Aug 2026",
     description:
-      "A real-time world clock built with React, Vite, Tailwind CSS, and Luxon. This project turns time zones into a single interactive experience — instead of just reading time, you can move through it. Drag the slider to control time, and watch multiple cities update in sync.",
-    skills: ["React", "TypeScript", "Tailwind CSS", "Luxon"],
+      "An interactive world clock that lets users control time with a slider and compare up to four cities in sync. Time-of-day backgrounds and responsive layouts turn time-zone data into a visual, hands-on experience.",
+    skills: ["React", "TypeScript", "Vite", "Tailwind CSS", "Luxon"],
     strongPoint: "/world-clock.png",
     image: "/world-clock.png",
     website: "https://world-clock-ten-mu.vercel.app/",
@@ -33,10 +33,17 @@ export const data = [
   {
     id: 3,
     name: "FlickPick",
-    date: "",
+    date: "Sep 2026",
     description:
-      "A real-time world clock built with React, Vite, Tailwind CSS, and Luxon. This project turns time zones into a single interactive experience — instead of just reading time, you can move through it. Drag the slider to control time, and watch multiple cities update in sync.",
-    skills: ["Next.js", "TypeScript", "Tailwind CSS", "Motion", "TMDB API"],
+      "A movie discovery app built around swipe-based choices. Users can browse recommendations, like or skip films, view details, manage a watch list, and explore categories, with animated interactions powered by Motion and movie data from TMDB.",
+    skills: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Motion",
+      "TMDB API",
+    ],
     strongPoint: "",
     image: "/flickpick.png",
     website: "https://film-swiper-psi.vercel.app/",
@@ -45,10 +52,17 @@ export const data = [
   {
     id: 4,
     name: "oNAMaE Styler",
-    date: "",
+    date: "May 2026",
     description:
-      "A real-time world clock built with React, Vite, Tailwind CSS, and Luxon. This project turns time zones into a single interactive experience — instead of just reading time, you can move through it. Drag the slider to control time, and watch multiple cities update in sync.",
-    skills: ["Next.js", "TypeScript", "Material UI", "DeepL API"],
+      "A playful name tool that converts names into Japanese using the DeepL API. Users can choose a source language, view Katakana and Hiragana results, and preview their names in multiple Japanese fonts across responsive layouts.",
+    skills: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Material UI",
+      "DeepL API",
+      "Google Fonts",
+    ],
     strongPoint: "",
     image: "/name-styler.png",
     website: "https://japanese-name-styler.vercel.app/",
@@ -56,15 +70,28 @@ export const data = [
   },
   {
     id: 5,
-    name: "Japanese Font Explorer ”Moji-Lab”",
-    date: "",
+    name: "Japanese Font Explorer ”Moji-Lab",
+    date: "Mar 2026",
     description:
-      "A real-time world clock built with React, Vite, Tailwind CSS, and Luxon. This project turns time zones into a single interactive experience — instead of just reading time, you can move through it. Drag the slider to control time, and watch multiple cities update in sync.",
-    skills: ["React", "JavaScript", "CSS Modules", "Material UI "],
+      "An interactive Japanese font explorer built as a React SPA. Users can preview fonts in real time, filter them by use case, and compare different styles through a clean interface, practicing state, props, and component-based architecture.",
+    skills: ["React", "JavaScript", "CSS Modules", "Material UI"],
     strongPoint: "",
-    image: "/moji-labo.png",
+    image: "/moji-lab.png",
     website: "https://japanese-font-selector.vercel.app/",
     github: "https://github.com/mamahimiko/japanese_font_selector.git",
+  },
+  {
+    id: 6,
+    name: "SHOVEL or TREAT!",
+    date: "Jan 2026",
+    description:
+      "A responsive JavaScript game where players clear snow while avoiding hidden cats. Players can also place candy to mark suspected hiding spots, creating a simple risk-and-reward game loop with win/loss tracking.",
+    skills: ["JavaScript", "HTML", "CSS", "Responsive Design", "Game Logic"],
+    strongPoint: "",
+    image: "/shovel_or_treat.png",
+    website: "https://assignment-3-js-responsive-web-game.vercel.app/",
+    github:
+      "https://github.com/mamahimiko/Assignment-3---JS-Responsive-Web-game",
   },
 ];
 
@@ -104,4 +131,17 @@ export const contactList = [
     contact: "https://github.com/mamahimiko",
     display: "github.com/mamahimiko",
   },
+];
+
+export const textAnimation = [
+  "frontend",
+  "typeScript",
+  "NextJS",
+  "Design",
+  "Traveling",
+  "Hiking",
+  "Running",
+  "Playing video game",
+  "Fika",
+  "Yes, Sushi →",
 ];

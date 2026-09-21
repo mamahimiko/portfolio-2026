@@ -9,7 +9,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="flex flex-col md:flex-row justify-center gap-2 lg:gap-15 text-text-main section section-container"
+      className="mt-10 flex flex-col md:flex-row justify-center gap-2 lg:gap-15 text-text-main section section-container"
     >
       <div className="md:hidden">
         <SubtitleChip subtitle="A little about me" />
@@ -26,17 +26,32 @@ const About = () => {
       <div className="max-w-150">
         <div className="hidden md:block">
           <SubtitleChip subtitle="A little about me" />
-          <h2 className="title">
+          <h2 className="title py-2">
             About <MotionTitle>Me</MotionTitle>
           </h2>
         </div>
-        <p className="">
-          I’m a frontend engineer currently studying frontend development at
-          Futuregames. I’m highly motivated and passionate about TypeScript,
-          JavaScript, React, and Next.js. With a background in marketing, I
-          enjoy bridging the gap between design and development — turning ideas
-          into interactive, meaningful user experiences.
-        </p>
+        <article className="py-4">
+          <h4 className="font-title text-lg text-main-blue">
+            Hi, I'm Maho Kurauchi
+          </h4>
+          <p className="">
+            I spent about 10 years in Japan working in sales and business
+            development at a fashion e-commerce company and a news agency.
+            Throughout my career, one question guided my work: how can I make
+            customers truly satisfied?
+          </p>
+        </article>
+        <article>
+          <h4 className="font-title text-lg text-main-blue">Currently</h4>
+          <p className="">
+            I'm now based in Stockholm, studying frontend development at
+            Futuregames since 2025, alongside freelance Shopify work for a
+            Japanese company. When building apps, I always ask myself: "How can
+            I present this so users find it fun?" I'm especially drawn to
+            interactive experiences, and I love trying out new technologies. In
+            team projects, I take initiative and focus on what needs to be done.
+          </p>
+        </article>
         <div className="py-10">
           <div className="flex  items-center gap-3 py-3">
             <p className="uppercase whitespace-nowrap tracking-wide text-main-blue font-bold font-title">

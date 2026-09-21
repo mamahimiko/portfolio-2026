@@ -16,8 +16,10 @@ const Button = () => {
         }}
         className="absolute bg-black top-1 left-1 w-full h-full rounded-md rotate-2"
       />
-      <motion.button
+      <motion.a
         whileHover={{ rotate: -2 }}
+        href="/Resume_Maho_Kurauchi.pdf"
+        target="_blank"
         className="relative bg-main-blue flex py-3 px-5 rounded-md text-navy-foreground border-2 border-black rotate-2"
       >
         <motion.div
@@ -30,7 +32,7 @@ const Button = () => {
           download cv
         </p>
         <p className="px-2 text-muted-gray text-xs flex items-center">PDF</p>
-      </motion.button>
+      </motion.a>
     </motion.div>
   );
 };

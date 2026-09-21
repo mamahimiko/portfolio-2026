@@ -21,7 +21,7 @@ const ProjectCard = ({
         duration: 0.2,
         ease: "easeInOut",
       }}
-      className="border-3 border-dashed border-accent-gray h-175 w-95 rounded-2xl bg-white hover:border-pink-500 hover:border hover:border-solid"
+      className="text-text-main border-3 border-dashed border-accent-gray h-180 w-95 rounded-2xl bg-white hover:border-pink-500 hover:border hover:border-solid"
     >
       <div
         className="h-70 bg-cover bg-center  rounded-t-2xl"
@@ -29,8 +29,8 @@ const ProjectCard = ({
       ></div>
       <div className="bg-white p-5">
         <div className="py-3">
-          <p>{date}</p>
-          <h3 className="text-xl font-bold">{name}</h3>
+          <p className="text-text-muted uppercase font-bold text-sm">{date}</p>
+          <h3 className="text-xl font-bold font-title">{name}</h3>
         </div>
         <div>{description}</div>
         <div className="flex gap-3 py-5">

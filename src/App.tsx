@@ -4,6 +4,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import MotionSection from "./components/motionSection";
+import MarqueeText from "./components/MarqueeText";
 import Works from "./components/Works";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <div className="bg-bg-gray font-text">
       <main>
         <Hero />
+        <MarqueeText />
         <MotionSection>
           <About />
         </MotionSection>

@@ -8,7 +8,7 @@ type MotionLineProps = {
 const MotionLine = ({ children }: MotionLineProps) => {
   return (
     <motion.span
-      initial={{ backgroundSize: "0% 10px" }}
+      initial={{ backgroundSize: "0% 30px" }}
       whileInView={{ backgroundSize: "100% 10px" }}
       viewport={{ once: true, margin: "-10%" }}
       transition={{
@@ -18,9 +18,8 @@ const MotionLine = ({ children }: MotionLineProps) => {
       style={{
         backgroundImage: "linear-gradient(var(--color-main-blue, )",
         backgroundRepeat: "no-repeat",
-        backgroundPosition: "0 100%",
       }}
-      className="inline"
+      className="inline bg-position-[0_100%] md:bg-position-[0_80%]"
     >
       {children}
     </motion.span>
