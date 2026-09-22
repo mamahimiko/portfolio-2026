@@ -9,7 +9,7 @@ const Hero = () => {
           <span className="text-main-pink text-lg">✦</span>Portfolio - 2026
         </p>
       </div>
-      <div className="text-text-main text-4xl md:text-6xl lg:text-8xl font-bold p-2 tracking-tighter leading-[1.1] max-w-300 font-title">
+      <div className="text-text-main text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-bold p-2 tracking-tighter leading-[1.1] max-w-300 font-title">
         Hi, Hej, こんにちは! <br />
         <motion.a
           whileHover={{ scale: 1.1, rotate: -5 }}
