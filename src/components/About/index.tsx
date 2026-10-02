@@ -36,7 +36,7 @@ const About = () => {
             Kurauchi
           </h4>
           <p className="font-text">
-            I spent about 10 years in Japan working in sales and business
+            I spent about 8 years in Japan working in sales and business
             development at a fashion e-commerce company and a news agency.
             Throughout my career, I've been guided by one question: How can I
             create experiences that truly satisfy customers?

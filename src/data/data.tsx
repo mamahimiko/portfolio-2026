@@ -32,22 +32,21 @@ export const data = [
   },
   {
     id: 3,
-    name: "FlickPick",
+    name: "Portfolio",
     date: "Sep 2026",
     description:
-      "A movie discovery app built around swipe-based choices. Users can browse recommendations, like or skip films, view details, manage a watch list, and explore categories, with animated interactions powered by Motion and movie data from TMDB.",
+      "A personal portfolio website shoucasing my project, skills and profile. Defined the UI/UX with Lovable, then wrote the code myself using React. purposeful animations with Motion to enhance the browsing experience.",
     skills: [
-      "Next.js",
       "React",
       "TypeScript",
       "Tailwind CSS",
       "Motion",
-      "TMDB API",
+      "Lovable(design)",
     ],
     strongPoint: "",
-    image: "/flickpick.png",
-    website: "https://film-swiper-psi.vercel.app/",
-    github: "https://github.com/mamahimiko/filmSwiper.git",
+    image: "/portfolio.png",
+    website: "https://portfolio-2026-beige-six.vercel.app/",
+    github: "https://github.com/mamahimiko/portfolio-2026.git",
   },
   {
     id: 4,
@@ -82,6 +81,24 @@ export const data = [
   },
   {
     id: 6,
+    name: "Eurovision Explore",
+    date: "May 2026",
+    description:
+      "A web app for exploring songs from the Eurovision Song Contest. Users can search by country on an interactive map or by the language the lyrics are sung in. Built with React and React Leaflet, using the Eurovision API.",
+    skills: [
+      "React",
+      "JavaScript",
+      "Euro vision API",
+      "React Leafret",
+      "CSS Modules",
+    ],
+    strongPoint: "",
+    image: "/eurovision-explorer.png",
+    website: "https://eurovision-explorer.vercel.app/",
+    github: "https://github.com/mamahimiko/eurovision-explorer",
+  },
+  {
+    id: 7,
     name: "SHOVEL or TREAT!",
     date: "Jan 2026",
     description:

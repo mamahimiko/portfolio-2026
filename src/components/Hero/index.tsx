@@ -18,9 +18,9 @@ const Hero = () => {
         >
           I'm Maho
         </motion.a>
-        , <MotionLine>a frontend engineer</MotionLine> with a
-        <MotionLine>full-stack perspective</MotionLine> — and a background in
-        <MotionLine>EC sales</MotionLine>. <br />I make ideas
+        , <MotionLine>a frontend engineer</MotionLine><span className="px-1.5"> with a </span>
+        <MotionLine>full-stack perspective</MotionLine><span className="px-1.5"> and a background in </span>
+        <MotionLine>EC sales</MotionLine>. <br /><span className="pr-1.5">I make ideas</span>
         <motion.a
           whileHover={{ scale: 1.1, rotate: -5 }}
           href="#project"
